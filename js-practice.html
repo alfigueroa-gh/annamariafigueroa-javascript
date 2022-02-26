@@ -39,10 +39,43 @@
     Strings on my own
     */
 
+    console.log("Strings on my own")
+
     let greeting = 'My name is ' + name;
     console.log(greeting);
 
-    
+    console.log("Using Functions")
+
+    // function to make square numbers
+    function makeSquare(theNumb) {
+      let squared = theNumb * theNumb;
+      return squared;
+    }
+
+    let try01 = makeSquare(3);
+    console.log(try01);
+
+    let try02 = makeSquare(4);
+    console.log(try02);
+
+    let try03 = makeSquare(5);
+    console.log(try03);
+
+    // Functions on my own
+    function makeName(firstName, middleName, lastName) {
+      let fullName = firstName + " " + middleName + " " + lastName
+      return fullName;
+    }
+
+    let name01 = makeName('Annamaria', 'Lei', 'Figueroa')
+    console.log(name01)
+
+    let name02 = makeName('Jonah', 'Ryan', 'Hill')
+    console.log(name02)
+
+    let name03 = makeName('Beto', 'O','Rourke')
+    console.log(name03)
+
   </script>
 </body>
 </html>
